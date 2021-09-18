@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import './App.scss';
-import Section from './Components/Section/Section';
-import FeedbackOptions from './Components/FeedbackOptions/FeedbackOptions.js';
-import Statistics from './Components/Statistics/Statistics.js';
-import Notification from './Components/Notification/Notification.js';
+import { Section } from './Components/Section/Section';
+import { FeedbackOptions } from './Components/FeedbackOptions/FeedbackOptions.js';
+import { Statistics } from './Components/Statistics/Statistics.js';
+import { Notification } from './Components/Notification/Notification.js';
 
 class App extends Component {
   state = { good: 0, neutral: 0, bad: 0 };
